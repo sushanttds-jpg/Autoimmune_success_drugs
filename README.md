@@ -11,8 +11,15 @@ Generated a comprehensive 6-panel visualization including:
 
 ## Prerequisites
 Ensure you have Python installed, then install the required libraries:
+
+##I hope this will help :)
+
 ```bash
 pip install matplotlib numpy
-pip install numpy
+pip install numpy```
 
-##I hope it helps you :)
+
+
+
+
+
