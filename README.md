@@ -16,7 +16,7 @@ Ensure you have Python installed, then install the required libraries:
 
 ```bash
 pip install matplotlib numpy
-pip install numpy```
+pip install numpy
 
 
 
