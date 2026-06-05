@@ -26,7 +26,7 @@ medicines = [
     {"name": "Belimumab (B-LyS inhibitor)", "success_rate": 76, "category": "Biologics"},
 ]
 
-# Extract data
+
 medicine_names = [med["name"] for med in medicines]
 success_rates = [med["success_rate"] for med in medicines]
 
@@ -34,10 +34,9 @@ category_data = defaultdict(list)
 for med in medicines:
     category_data[med["category"]].append(med["success_rate"])
 
-# Clean, standard human styling
 plt.style.use('bmh')
 fig = plt.figure(figsize=(16, 12))
-fig.canvas.manager.set_window_title("Autoimmune Medicine Analysis")
+fig.canvas.manager.set_window_title("Autoimmune Medicine Analysis Image")
 standard_colors = ['steelblue', 'darkorange', 'forestgreen', 'firebrick', 'mediumpurple', 'sienna']
 
 # 1. Bar Chart - Success Rate by Medicine
